@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><link rel=apple-touch-icon sizes=76x76 href=static/img/apple-icon.png><link rel=icon type=image/png id=dynamic-favicon sizes=96x96 href=static/img/images/dreamtech/logo/dreamtechfavicon.png><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Admin Panel</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link type=text/css href="https://fonts.googleapis.com/css?family=Muli:400,300" rel=stylesheet><link type=text/css href="https://fonts.googleapis.com/css?family=Montserrat" rel=stylesheet><link type=text/css href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css rel=stylesheet><link type=text/css href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet><link href=static/css/themify-icons.css rel=stylesheet><script type=text/javascript src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><script type=text/javascript>const link = document.getElementById("dynamic-favicon")
+   const hostname = document.location.hostname
+   const sites = ["bitdtc","linejr", "vpncash","localhost"]
+   const locFavIcon = ['static/img/images/dreamtech/logo/dreamtechfavicon.png',
+                        'static/img/images/linejr/logo/linejrfavicon.png',
+                        'static/img/images/vpncash/logo/vpncashfavicon.png',
+                        'static/img/images/dreamtech/logo/dreamtechfavicon.png']
+
+    sites.forEach((v, k) => { 
+      
+      const availableSite = hostname.search(v)
+      if(availableSite != -1){
+        const icon = locFavIcon[k]
+        link.href = icon
+        console.log(v)
+      }
+      
+    });</script><style>.skiptranslate{
+    display: none !important;
+  }
+  body{
+    top:0px !important;
+  }
+  #google_translate_element{
+    display: none !important;
+    position: fixed !important;
+    top: 0px;
+    right: 10px;
+    z-index: 99999999 !important;
+  }
+
+  #google_translate_element .skiptranslate{
+    display: block !important;
+  }
+
+  select.goog-te-combo option{
+    display: none !important;
+  }
+
+  select.goog-te-combo option[value="zh-TW"],select.goog-te-combo option[value="zh-CN"],select.goog-te-combo option[value="en"]{
+    display:block !important;
+  }</style><link href=static/css/app.fb5ab99ed8be98a50c7facdae363c27a.css rel=stylesheet></head><body><div id=google_translate_element></div><div class=wrapper id=app></div><script type=text/javascript src=static/js/manifest.a7cd96e8a068694a22b9.js></script><script type=text/javascript src=static/js/vendor.30118818c5b1fb7fb939.js></script><script type=text/javascript src=static/js/app.2d1332c953835d9d97b3.js></script></body></html>
